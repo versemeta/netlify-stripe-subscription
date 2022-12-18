@@ -20,12 +20,12 @@ const content = {
   },
   premium: {
     src:
-      'https://images.unsplash.com/photo-1546975490-e8b92a360b24?auto=format&fit=crop&w=600&h=600&q=80',
-    alt: 'corgi in a tent with string lights in the foreground',
-    credit: 'Cole Keister',
-    creditLink: 'https://unsplash.com/photos/cX-KEISwDIw',
+      'https://s2.coinmarketcap.com/static/img/coins/64x64/7186.png',
+    alt: 'BUY NOW',
+    credit: 'SWAP',
+    creditLink: 'https://poocoin.app/tokens/0xede535a36f5e5082eef5e49bfda4c6a5da465746',
     message:
-      'This is protected content! It’s only available if you have the premium plan.',
+      'Swap Pancake PCS.',
     allowedRoles: ['premium'],
   },
 };
@@ -41,11 +41,11 @@ exports.handler = async (event, context) => {
       statusCode: 402,
       body: JSON.stringify({
         src:
-          'https://res.cloudinary.com/jlengstorf/image/upload/q_auto,f_auto/v1592618179/stripe-subscription/subscription-required.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/121px-Telegram_2019_Logo.svg.png',
         alt: 'corgi in a crossed circle with the text “subscription required”',
-        credit: 'Jason Lengstorf',
-        creditLink: 'https://dribbble.com/jlengstorf',
-        message: `This content requires a ${type} subscription.`,
+        credit: 'Group Telegram',
+        creditLink: 'https://t.me/FalconBSC',
+        message: `Group Telegram.`,
       }),
     };
   }
